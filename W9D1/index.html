@@ -1,0 +1,44 @@
+<!-- <html>
+
+<head>
+    <title>A page for you!</title>
+</head>
+
+<body>
+    <input type="text" id="text-field" value="">
+    <button id="submit-button">Submit me!</button>
+
+    <script type="application/javascript">
+        const textField = document.getElementById('text-field');
+        const button = document.getElementById('submit-button');
+
+        const showValue = () => {
+            let inputValue = textField.value;
+            alert(inputValue);
+        }
+
+        button.onclick = showValue;
+    </script>
+</body>
+
+</html> -->
+
+<html>
+
+<head>
+    <title>A page for you!</title>
+</head>
+
+<body>
+    <div id="content"></div>
+
+    <!-- first load the jQuery library hosted by Google -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.3/jquery.js"></script>
+
+    <script>alert("This is inline code!");</script>
+
+    <!-- then load our own app.js code -->
+    <script type="application/javascript" src="./app.js"></script>
+</body>
+
+</html>
